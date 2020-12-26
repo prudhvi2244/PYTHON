@@ -18,4 +18,3 @@ Rules to define identifiers in Python:
 5. There is no length limit for Python identifiers. But not recommended to use too lengthy identifiers.
 6. Dollor ($) Symbol is not allowed in Python.
 
-
