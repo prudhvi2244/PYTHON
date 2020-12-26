@@ -11,7 +11,7 @@ Sort the Result
 * To sort the result in descending order, use the DESC keyword.
 
 customers.py
---
+-- 
 
           import mysql.connector
 
