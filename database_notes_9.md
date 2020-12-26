@@ -46,25 +46,25 @@ Prevent SQL Injection
 customers.py
 --
 
-import mysql.connector
+        import mysql.connector
 
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="yourusername",
-  password="yourpassword",
-  database="mydatabase"
-)
+        mydb = mysql.connector.connect(
+          host="localhost",
+          user="yourusername",
+          password="yourpassword",
+          database="mydatabase"
+        )
 
-mycursor = mydb.cursor()
+        mycursor = mydb.cursor()
 
-sql = "UPDATE customers SET address = %s WHERE address = %s"
-val = ("HSR Layout", "Bommanahalli")
+        sql = "UPDATE customers SET address = %s WHERE address = %s"
+        val = ("HSR Layout", "Bommanahalli")
 
-mycursor.execute(sql, val)
+        mycursor.execute(sql, val)
 
-mydb.commit()
+        mydb.commit()
 
-print(mycursor.rowcount, "record(s) affected")
+        print(mycursor.rowcount, "record(s) affected")
 
 
 
