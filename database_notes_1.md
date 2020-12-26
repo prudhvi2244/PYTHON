@@ -1,4 +1,4 @@
-Trainer : Raj Prudhvi (Oracle Certified)
+Trainer : Raj Prudhvi (Oracle Certified) 
 -
 
 Python Database Programming:            
