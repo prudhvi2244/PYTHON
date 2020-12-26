@@ -1,6 +1,6 @@
 Trainer : Raj Prudhvi ( Oracle Certified )
 -
-
+ 
 Creating a Table
 -
 * To create a table in MySQL, use the "CREATE TABLE" statement.
